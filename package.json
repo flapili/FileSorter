@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "tauri": "tauri",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.27.0",
+    "@tauri-apps/api": "^1.1.0",
+    "@tauri-apps/cli": "^1.1.1",
+    "@unocss/nuxt": "^0.45.26",
+    "@unocss/reset": "^0.45.26",
+    "@vueuse/core": "^9.3.0",
+    "@vueuse/nuxt": "^9.3.0",
+    "eslint": "^8.23.1",
+    "nuxt": "3.0.0-rc.11",
+    "typescript": "^4.8.3"
+  }
+}
